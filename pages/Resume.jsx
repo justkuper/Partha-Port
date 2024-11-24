@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import React from 'react';
 import '../src/Resume.css'
 
 // function name should always be capital...and be the same name as file name 
@@ -12,11 +13,12 @@ function Resume(){
                 <h1 className='heading'>hello, welcome to the resume section</h1>
                 
                 <div className="menu-buttons">
-                    <Link to='/home'>
-                        <button> home</button>
-                    </Link>
+                   
                     <Link to='/colorpickerproject'>
                         <button> color picker app</button>
+                    </Link>
+                    <Link to='/home'>
+                        <button> home</button>
                     </Link>
                     <Link to='/contact'>
                         <button> contact me</button>
